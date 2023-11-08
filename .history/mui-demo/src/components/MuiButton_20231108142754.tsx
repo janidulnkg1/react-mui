@@ -27,10 +27,10 @@ export const MuiButton = () => {
         </Stack>
 
         <Stack spacing={2} direction='row'>
-            <Button variant='contained' startIcon={<SendIcon />} disableRipple onClick={() => alert('Clicked')}>Send</Button>
-            <Button variant='contained' startIcon={<SendIcon />} disableElevation>Send</Button>
+            <Button variant='contained' startIcon={<SendIcon />}>Send</Button>
+            <Button variant='contained' startIcon={<SendIcon />}>Send</Button>
 
-            <IconButton aria-label='send' color='success' size='small'>
+            <IconButton aria-label='send' color='success' size=''>
                 <SendIcon />
             </IconButton>
 
