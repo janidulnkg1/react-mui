@@ -7,11 +7,12 @@ import {useState} from 'react'
 
 
 export const MuiButton = () => {
-    const [formats, setFormats] = useState<string | null >(null)
+    const [formats, setFormats] = useState<string[]>([])
     console.log({
         formats,
     })
-    const handleFormatChange = (_event: React.MouseEvent<HTMLElement>, updatedFormats: string | null) => {
+    const handleFormatChange = (_event: React.MouseEvent<HTMLElement>, updatedFormats: string[]
+        ) => {
         setFormats(updatedFormats)
     }
   return (
@@ -55,12 +56,14 @@ export const MuiButton = () => {
         </Stack> 
 
         <Stack direction='row'>
-            <ToggleButtonGroup aria-label='text formatting' value={formats} onChange={handleFormatChange} size='small' color='success' orientation='vertical' exclusive>
+            <ToggleButtonGroup aria-label='text formatting' value={formats} onChange={handleFormatChange} size='small' >
                 <ToggleButton value='bold' aria-label='bold'><FormatBoldIcon /></ToggleButton>
                 <ToggleButton value='italic' aria-label='italic'><FormatItalicIcon /></ToggleButton>
                 <ToggleButton value='underlined' aria-label='underlined'><FormatUnderlinedIcon /></ToggleButton>
             </ToggleButtonGroup>
         </Stack>
+
+
 
     </Stack>
   )

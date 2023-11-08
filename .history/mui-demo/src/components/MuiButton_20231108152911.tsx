@@ -11,7 +11,8 @@ export const MuiButton = () => {
     console.log({
         formats,
     })
-    const handleFormatChange = (_event: React.MouseEvent<HTMLElement>, updatedFormats: string | null) => {
+    const handleFormatChange = (_event: React.MouseEvent<HTMLElement>, updatedFormats: string[]
+        ) => {
         setFormats(updatedFormats)
     }
   return (
@@ -61,6 +62,8 @@ export const MuiButton = () => {
                 <ToggleButton value='underlined' aria-label='underlined'><FormatUnderlinedIcon /></ToggleButton>
             </ToggleButtonGroup>
         </Stack>
+
+
 
     </Stack>
   )
