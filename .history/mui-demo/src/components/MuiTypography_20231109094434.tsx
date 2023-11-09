@@ -17,8 +17,7 @@ export const MuiTypography = () => {
         exercitationem sequi autem tempore dicta temporibus accusamus tenetur cumque voluptatibus saepe, soluta sunt. 
         Iure, quae cum.</Typography>
         <Typography variant='body2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Pariatur provident totam eveniet corporis temporibus asperiores sapiente soluta qui possimus, 
-        adipisci consequatur ratione fugiat doloremque cumque quas tempora quidem libero! 
+        Pariatur provident totam eveniet corporis temporibus asperiores sapiente soluta qui possimus, adipisci consequatur ratione fugiat doloremque cumque quas tempora quidem libero! 
         Placeat!</Typography>
 
 

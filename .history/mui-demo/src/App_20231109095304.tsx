@@ -15,7 +15,7 @@ function App() {
       {/*MuiTextField */}
       {/*MuiSelect */}
       {/*MuiRadioButton */}
-      <MuiCheckbox/>
+      <MuiCheckBox/>
     </div>
   );
 }
