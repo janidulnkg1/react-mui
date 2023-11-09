@@ -18,7 +18,7 @@ function App() {
       {/*MuiSelect */}
       {/*MuiRadioButton */}
       {/*MuiCheckbox*/}
-      {/*MuiSwitch */}
+      {MuiSwitch */}
       <MuiRating />
     </div>
   );
