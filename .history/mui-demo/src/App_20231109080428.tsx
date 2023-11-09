@@ -5,12 +5,12 @@ import {MuiTextField } from './components/MuiTextField'
 
 function App() {
   return (
-    <div className="App">
+    <Stack className="App">
      
       {/*MuiTypography */}
       {/*MuiButton */}
       <MuiTextField />
-    </div>
+    </Stack>
   );
 }
 

@@ -8,7 +8,7 @@ function App() {
     <div className="App">
      
       {/*MuiTypography */}
-      {/*MuiButton */}
+      {MuiButton }
       <MuiTextField />
     </div>
   );
