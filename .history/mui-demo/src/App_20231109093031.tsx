@@ -13,7 +13,6 @@ function App() {
       {/*MuiButton */}
       {/*MuiTextField */}
       {/*MuiSelect */}
-      <MuiRadioButton />
     </div>
   );
 }
