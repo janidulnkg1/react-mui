@@ -4,7 +4,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 
 export const MuiRating = () => {
-  const [value, setValue] = useState<number | null>(4)
+  const [value, setValue] = useState<number | null>(3)
   console.log(value)
   const handleChange = (
     _event: React.ChangeEvent<{}>,
