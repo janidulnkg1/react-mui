@@ -25,7 +25,6 @@ import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiTooltip } from './components/MuiTooltip';
-import { MuiTable } from './components/MuiTable';
 
 function App() {
   return (
