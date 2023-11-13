@@ -31,7 +31,6 @@ import { MuiSnackbar } from './components/MuiSnackbar';
 import { MuiDialog } from './components/MuiDialog';
 import { MuiProgress } from './components/MuiProgress';
 import { MuiSkeleton } from './components/MuiSkeleton';
-import { MuiLoadingButton } from './components/MuiLoadingButton';
 
 function App() {
   return (
@@ -62,10 +61,10 @@ function App() {
       {/*MuiDialog */}
       {/*MuiProgress */}
       {/*MuiSkeleton */}
-
+      
       <MuiNavbar />
       <MuiDrawer />
-      <MuiLoadingButton />
+      <MuiSkeleton />
       <MuiSpeedDial /> 
       <MuiBottomNavigation />
     </div>
