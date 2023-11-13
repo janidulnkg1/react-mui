@@ -27,7 +27,6 @@ import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiAlert } from './components/MuiAlert';
-import { MuiSnackbar } from './components/MuiSnackbar';
 
 function App() {
   return (
@@ -53,9 +52,9 @@ function App() {
       {/*MuiList */}
       {/*MuiTooltip */}
       {/*MuiTable */}
-      {/*MuiAlert */}
       <MuiNavbar />
       <MuiDrawer />
+      <MuiAlert/>
       <MuiSnackbar/>
       <MuiSpeedDial /> 
       <MuiBottomNavigation />

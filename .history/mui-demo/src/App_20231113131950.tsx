@@ -53,9 +53,10 @@ function App() {
       {/*MuiList */}
       {/*MuiTooltip */}
       {/*MuiTable */}
-      {/*MuiAlert */}
+      {/*MuiTable */}
       <MuiNavbar />
       <MuiDrawer />
+      <MuiAlert/>
       <MuiSnackbar/>
       <MuiSpeedDial /> 
       <MuiBottomNavigation />

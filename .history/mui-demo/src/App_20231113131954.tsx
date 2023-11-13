@@ -56,6 +56,7 @@ function App() {
       {/*MuiAlert */}
       <MuiNavbar />
       <MuiDrawer />
+      <MuiAlert/>
       <MuiSnackbar/>
       <MuiSpeedDial /> 
       <MuiBottomNavigation />
