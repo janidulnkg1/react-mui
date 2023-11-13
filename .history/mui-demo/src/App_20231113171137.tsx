@@ -28,12 +28,12 @@ import './App.css';
 //import { MuiSkeleton } from './components/MuiSkeleton';
 //import { MuiLoadingButton } from './components/MuiLoadingButton';
 //import { MuiTabs } from './components/MuiTabs';
-//import { MuiTimeline } from './components/MuiTimeline';
 
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
+
 import { MuiMasonry } from './components/MuiMasonry';
 
 function App() {

@@ -28,7 +28,6 @@ import './App.css';
 //import { MuiSkeleton } from './components/MuiSkeleton';
 //import { MuiLoadingButton } from './components/MuiLoadingButton';
 //import { MuiTabs } from './components/MuiTabs';
-//import { MuiTimeline } from './components/MuiTimeline';
 
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiNavbar } from './components/MuiNavbar';
