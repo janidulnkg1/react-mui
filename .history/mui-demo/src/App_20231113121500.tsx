@@ -50,8 +50,9 @@ function App() {
       <MuiNavbar />
       <MuiDrawer />
       <MuiTooltip />
+      <MuiTooltip />
       <MuiSpeedDial /> 
-      <MuiBottomNavigation />
+      
     </div>
   );
 }
