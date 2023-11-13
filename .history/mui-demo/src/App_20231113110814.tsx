@@ -35,7 +35,6 @@ function App() {
       {/*MuiAccordion */}
       {/*MuiImageList */}
       <MuiNavbar />
-      <MuiLink />
     </div>
   );
 }
