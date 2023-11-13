@@ -13,13 +13,11 @@ import './App.css';
 //import { MuiAccordion } from './components/MuiAccordion';
 //import { MuiLink} from './components/MuiLink';
 //import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
-
 import { MuiImageList } from './components/MuiImageList';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
-import { MuiAvatar } from './components/MuiAvatar';
 
 
 
@@ -41,13 +39,13 @@ function App() {
       {/*MuiCard */}
       {/*MuiAccordion */}
       {/*MuiImageList */}
+
       {/*MuiLink */}
       {/*MuiBreadcrumbs */}
-      <MuiNavbar />
       <MuiDrawer />
+      <MuiImageList />
       <MuiSpeedDial />
       <MuiBottomNavigation /> 
-      <MuiAvatar />
     </div>
   );
 }

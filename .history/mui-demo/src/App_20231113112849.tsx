@@ -10,16 +10,14 @@ import './App.css';
 //import { MuiAutocomplete } from './components/MuiAutocomplete';
 //import { MuiLayout } from './components/MuiLayout';
 //import { MuiCard } from './components/MuiCard';
-//import { MuiAccordion } from './components/MuiAccordion';
-//import { MuiLink} from './components/MuiLink';
-//import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
-
+import { MuiAccordion } from './components/MuiAccordion';
 import { MuiImageList } from './components/MuiImageList';
 import { MuiNavbar } from './components/MuiNavbar';
+import { MuiLink} from './components/MuiLink';
+import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
-import { MuiAvatar } from './components/MuiAvatar';
 
 
 
@@ -41,13 +39,12 @@ function App() {
       {/*MuiCard */}
       {/*MuiAccordion */}
       {/*MuiImageList */}
-      {/*MuiLink */}
-      {/*MuiBreadcrumbs */}
       <MuiNavbar />
+      {/*MuiLink */}
+      <MuiBreadcrumbs />
       <MuiDrawer />
       <MuiSpeedDial />
       <MuiBottomNavigation /> 
-      <MuiAvatar />
     </div>
   );
 }

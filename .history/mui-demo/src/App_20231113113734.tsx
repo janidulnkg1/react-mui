@@ -47,7 +47,7 @@ function App() {
       <MuiDrawer />
       <MuiSpeedDial />
       <MuiBottomNavigation /> 
-      <MuiAvatar />
+      <MuiAvatar />>
     </div>
   );
 }
