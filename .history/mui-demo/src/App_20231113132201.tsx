@@ -21,15 +21,12 @@ import './App.css';
 //import { MuiChip } from './components/MuiChip';
 //import { MuiTooltip } from './components/MuiTooltip';
 //import { MuiTable } from './components/MuiTable';
-//import { MuiAlert } from './components/MuiAlert';
 
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiSnackbar } from './components/MuiSnackbar';
-import { MuiDialog } from './components/MuiDialog';
-import { MuiProgress } from './components/MuiProgress';
 
 function App() {
   return (
@@ -56,11 +53,9 @@ function App() {
       {/*MuiTooltip */}
       {/*MuiTable */}
       {/*MuiAlert */}
-      {/*MuiSnackbar */}
-      {/*MuiDialog */}
       <MuiNavbar />
       <MuiDrawer />
-      <MuiProgress/>
+      <MuiSnackbar/>
       <MuiSpeedDial /> 
       <MuiBottomNavigation />
     </div>

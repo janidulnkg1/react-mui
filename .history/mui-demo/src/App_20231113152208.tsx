@@ -29,7 +29,6 @@ import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiSnackbar } from './components/MuiSnackbar';
 import { MuiDialog } from './components/MuiDialog';
-import { MuiProgress } from './components/MuiProgress';
 
 function App() {
   return (
@@ -60,7 +59,8 @@ function App() {
       {/*MuiDialog */}
       <MuiNavbar />
       <MuiDrawer />
-      <MuiProgress/>
+      <MuiSnackbar/>
+      <MuiDialog/>
       <MuiSpeedDial /> 
       <MuiBottomNavigation />
     </div>
