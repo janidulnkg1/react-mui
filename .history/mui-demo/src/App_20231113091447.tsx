@@ -7,8 +7,7 @@ import './App.css';
 //import { MuiCheckbox } from './components/MuiCheckbox';
 //import { MuiSwitch } from './components/MuiSwitch';
 //import { MuiRating } from './components/MuiRating';
-//import { MuiAutocomplete } from './components/MuiAutocomplete';
-import { MuiLayout } from './components/MuiLayout';
+import { MuiAutocomplete } from './components/MuiAutocomplete';
 
 
 function App() {
@@ -23,8 +22,7 @@ function App() {
       {/*MuiCheckbox*/}
       {/*MuiSwitch */}
       {/*MuiRating */}
-      {/*MuiAutocomplete */}
-      <MuiLayout />
+      <MuiAutocomplete />
     </div>
   );
 }

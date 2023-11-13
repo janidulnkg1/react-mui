@@ -23,8 +23,8 @@ function App() {
       {/*MuiCheckbox*/}
       {/*MuiSwitch */}
       {/*MuiRating */}
-      {/*MuiAutocomplete */}
-      <MuiLayout />
+      {/*MuiRating */}
+      <MuiAutocomplete />
     </div>
   );
 }
