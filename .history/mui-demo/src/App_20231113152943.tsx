@@ -30,7 +30,6 @@ import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiSnackbar } from './components/MuiSnackbar';
 import { MuiDialog } from './components/MuiDialog';
 import { MuiProgress } from './components/MuiProgress';
-import { MuiSkeleton } from './components/MuiSkeleton';
 
 function App() {
   return (
@@ -59,10 +58,10 @@ function App() {
       {/*MuiAlert */}
       {/*MuiSnackbar */}
       {/*MuiDialog */}
-       {/*MuiProgress */}
+       {/*MuiDialog */}
       <MuiNavbar />
       <MuiDrawer />
-      <MuiSkeleton />
+      <MuiProgress/>
       <MuiSpeedDial /> 
       <MuiBottomNavigation />
     </div>
