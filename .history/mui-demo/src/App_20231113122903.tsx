@@ -19,8 +19,6 @@ import './App.css';
 //import { MuiBadge } from './components/MuiBadge';
 //import { MuiList } from './components/MuiList';
 //import { MuiChip } from './components/MuiChip';
-//import { MuiTooltip } from './components/MuiTooltip';
-//import { MuiTable } from './components/MuiTable';
 
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiNavbar } from './components/MuiNavbar';

@@ -19,14 +19,13 @@ import './App.css';
 //import { MuiBadge } from './components/MuiBadge';
 //import { MuiList } from './components/MuiList';
 //import { MuiChip } from './components/MuiChip';
-//import { MuiTooltip } from './components/MuiTooltip';
-//import { MuiTable } from './components/MuiTable';
 
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
-import { MuiAlert } from './components/MuiAlert';
+import { MuiTooltip } from './components/MuiTooltip';
+import { MuiTable } from './components/MuiTable';
 
 function App() {
   return (
@@ -51,10 +50,10 @@ function App() {
       {/*MuiBadge */}
       {/*MuiList */}
       {/*MuiTooltip */}
-      {/*MuiTable */}
       <MuiNavbar />
       <MuiDrawer />
-      <MuiAlert/>
+      <MuiTable/>
+      
       <MuiSpeedDial /> 
       <MuiBottomNavigation />
     </div>
