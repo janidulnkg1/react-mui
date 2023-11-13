@@ -21,7 +21,7 @@ export const MuiBreadcrumbs = () => {
         <Link underline='hover' href='#'>
           New Collection
         </Link>
-        <Typography color='text.primary'>PCs</Typography>
+        <Typography color='text.primary'><PCs></PCs></Typography>
       </Breadcrumbs>
     </Box>
   )
