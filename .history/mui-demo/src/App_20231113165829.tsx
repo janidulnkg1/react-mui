@@ -27,13 +27,13 @@ import './App.css';
 //import { MuiProgress } from './components/MuiProgress';
 //import { MuiSkeleton } from './components/MuiSkeleton';
 //import { MuiLoadingButton } from './components/MuiLoadingButton';
-//import { MuiTabs } from './components/MuiTabs';
 
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
-import { MuiTimeline } from './components/MuiTimeline';
+import { MuiDateTimePicker } from './components/MuiDateTimePicker';
+import { MuiTabs } from './components/MuiTabs';
 
 function App() {
   return (
@@ -66,11 +66,11 @@ function App() {
       {/*MuiSkeleton */}
       {/*MuiLoadingButton */}
       {/*MuiDateTimePicker */}
-      {/*MuiTabs */}
+      
 
       <MuiNavbar />
       <MuiDrawer />
-      <MuiTimeline />
+      <MuiTabs />
       <MuiSpeedDial /> 
       <MuiBottomNavigation />
     </div>

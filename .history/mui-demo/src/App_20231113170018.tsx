@@ -33,6 +33,7 @@ import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
+
 import { MuiTimeline } from './components/MuiTimeline';
 
 function App() {
