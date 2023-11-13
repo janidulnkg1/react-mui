@@ -13,14 +13,16 @@ import './App.css';
 //import { MuiAccordion } from './components/MuiAccordion';
 //import { MuiLink} from './components/MuiLink';
 //import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
-//import { MuiImageList } from './components/MuiImageList';
-//import { MuiAvatar } from './components/MuiAvatar';
+
+import { MuiImageList } from './components/MuiImageList';
 import { MuiNavbar } from './components/MuiNavbar';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
-import { MuiImageList } from './components/MuiImageList';
-import { MuiBadge } from './components/MuiBadge';
+import { MuiAvatar } from './components/MuiAvatar';
+
+
+
 
 function App() {
   return (
@@ -44,7 +46,7 @@ function App() {
        {/*MuiAvatar */}
       <MuiNavbar />
       <MuiDrawer />
-      <MuiBadge />
+      
       <MuiSpeedDial />
       <MuiBottomNavigation /> 
     </div>

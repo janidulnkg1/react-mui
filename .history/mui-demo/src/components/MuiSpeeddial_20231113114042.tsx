@@ -8,7 +8,7 @@ export const MuiSpeedDial = () => {
   return (
     <SpeedDial
       ariaLabel='Navigation speed dial'
-      sx={{ position: 'fixed', bottom: 16, right: 16 }}
+      sx={{ position: 'absofixedlute', bottom: 16, right: 16 }}
       icon={<SpeedDialIcon openIcon={<EditIcon />} />}>
       <SpeedDialAction icon={<CopyIcon />} tooltipTitle='Copy' tooltipOpen />
       <SpeedDialAction icon={<PrintIcon />} tooltipTitle='Print' tooltipOpen />

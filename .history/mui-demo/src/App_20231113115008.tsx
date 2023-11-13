@@ -44,7 +44,7 @@ function App() {
        {/*MuiAvatar */}
       <MuiNavbar />
       <MuiDrawer />
-      <MuiBadge />
+      <MuiBadge
       <MuiSpeedDial />
       <MuiBottomNavigation /> 
     </div>

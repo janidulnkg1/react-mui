@@ -20,7 +20,6 @@ import { MuiDrawer } from './components/MuiDrawer';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiImageList } from './components/MuiImageList';
-import { MuiBadge } from './components/MuiBadge';
 
 function App() {
   return (
@@ -44,7 +43,7 @@ function App() {
        {/*MuiAvatar */}
       <MuiNavbar />
       <MuiDrawer />
-      <MuiBadge />
+      
       <MuiSpeedDial />
       <MuiBottomNavigation /> 
     </div>
